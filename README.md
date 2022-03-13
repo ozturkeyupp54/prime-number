@@ -19,14 +19,11 @@ def prime_num_q():
       
     elif number > 2 :
       prime_fact= []
-      
       for i in num_list:
         if number % i == 0:
             prime_fact.append(number % i) 
       if len(prime_fact) > 0:
-        print("{} is not a prime number".format(number))
-           
-          
+        print("{} is not a prime number".format(number))        
       else:
         print("{} is a prime number".format(number))
           
