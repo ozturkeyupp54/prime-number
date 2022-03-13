@@ -19,7 +19,7 @@ def prime_num_q():
       
     elif number > 2 :
       prime_fact= []
-      counter = 0
+      
       for i in num_list:
         if number % i == 0:
             prime_fact.append(number % i) 
